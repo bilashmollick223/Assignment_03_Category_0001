@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,38 +48,65 @@
 </head>
 <body>
   <!-- Heder section -->
-   <header>
+   <header class=" bg-white ">
     <!-- Nav Star -->
-     <nav class="">
-      <div class="navbar bg-base-100 bg-white text-black font-bold">
+     <nav class="flex justify-between items-center w-[92%] mx-auto">
+      <div class="navbar bg-base-100 bg-white">
         <div class="navbar-start">
-          <!--img  -->
-          <img class="size-11	" src="./c1-assets/logo-header.png" alt="">
-          <a class="btn btn-ghost text-xl text-black">Browse<span class="text-yellow-400">4</span>Pets</a>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Find a pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="">
+            <img class="sm:hidden" src="./c1-assets/logo-header.png" alt="">
+          </div>
+          <a class="font-bold text-xl">Browse<span class="text-yellow-400	">4</span>Pets</a>
         </div>
-        <div class="navbar-center hidden lg:flex ">
-          <ul class="menu menu-horizontal px-1 ">
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
             <li><a>Find a pet</a></li>
-            <li>
-              <details>
-                <summary>Breeds</summary>
-              </details>
-            </li>
+            <li><a>Breeds</a></li>
             <li><a>Contact us</a></li>
           </ul>
         </div>
-        <div class="navbar-end gap-1 ">
-          <div class="scroll-ml-0.5	">
-            <!-- icon -->
-             <a href="#"><i class="fa-regular fa-bell"></i></a>
-             <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <div class="navbar-end flex-items-center gap-6">
+          <div class="sm:hidden">
+            <a ><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a class=""><i class="fa-regular fa-bell"></i></a>
           </div>
-          <a class="btn bg-white text-black font-bold">Login</a>
-          <a class="btn bg-yellow-400 text-black font-bold">Register</a>
+          <a class="btn btn-outline btn-warning	">Login</a>
+          <a class="btn btn-warning">Register</a>
         </div>
       </div>
      </nav>
     <!-- Nav End -->
+
+    <!-- Start Banner -->
+     
+     <div class="max-w-screen-xl mx-auto px-16 lg:px-28">
+
+     </div>
+    <!-- Start Banner -->
+
 
    </header>
 

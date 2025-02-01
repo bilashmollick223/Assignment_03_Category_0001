@@ -48,10 +48,10 @@
 </head>
 <body>
   <!-- Heder section -->
-   <header class=" bg-white ">
+   <header class=" ">
     <!-- Nav Star -->
-     <nav class="flex justify-between items-center w-[92%] mx-auto">
-      <div class="navbar bg-base-100 bg-white">
+     <nav class="bg-red-50 flex justify-between items-center w-[92%] mx-auto ">
+      <div class="navbar bg-base-100 ">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -77,9 +77,9 @@
             </ul>
           </div>
           <div class="">
-            <img class="sm:hidden" src="./c1-assets/logo-header.png" alt="">
+            <img class="" src="./c1-assets/logo-header.png" alt="">
           </div>
-          <a class="font-bold text-xl">Browse<span class="text-yellow-400	">4</span>Pets</a>
+          <a class="font-bold text-xl lg:hidden">Browse<span class="text-yellow-400	">4</span>Pets</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -89,7 +89,7 @@
           </ul>
         </div>
         <div class="navbar-end flex-items-center gap-6">
-          <div class="sm:hidden">
+          <div>
             <a ><i class="fa-solid fa-magnifying-glass"></i></a>
           <a class=""><i class="fa-regular fa-bell"></i></a>
           </div>
@@ -101,19 +101,87 @@
     <!-- Nav End -->
 
     <!-- Start Banner -->
-     
-     <div class="max-w-screen-xl mx-auto px-16 lg:px-28">
-
-     </div>
-    <!-- Start Banner -->
-
+    <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img
+          src="./c1-assets/cat-big.png"
+          class="max-w-sm" />
+        <div>
+          <h1 class="text-5xl font-bold adlam-display-regular ">Pamper Your Pet,<br>
+             Because They Deserve <br>
+              the Bes</h1>
+          <p class="py-6 font-sora">
+            Discover a world of treats, toys, and essentials handpicked for <br>
+             your furry friends. Shop now and make tails wag with joy!</p>
+          <button class="btn btn-warning">Find a pet</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Banner -->
 
    </header>
 
    <!-- Main section -->
-    <main></main>
+    <main>
+      <div>
+        <h1 class="adlam-display-regular font-light	text-3xl	 mt-35 my-12">Browse By Categories</h1>
+      </div>
+      <!-- Start card -->
+      <div class="grid grid-cols-6  gap-6 text-center ">
+        <div class="rounded-lg shadow-md bg-red-200 overflow-hidden">
+          <img class="m-auto w-24 h-24 rounded-full mx-auto border-4 bg-white" src="./c1-assets/dog-cartoon.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Dog</h2>
+            <p class="text-gray-600">3 items</p>
+          </div>
+         </div>
+
+         <div class="rounded-lg shadow-md bg-red-200 overflow-hidden">
+          <img class="m-auto w-24 h-24 rounded-full mx-auto border-4 bg-white" src="./c1-assets/fish-cartoon.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Fish</h2>
+            <p class="text-gray-600">3 items</p>
+          </div>
+         </div>
+
+         <div class="rounded-lg shadow-md bg-red-200 overflow-hidden">
+          <img class="m-auto w-24 h-24 rounded-full mx-auto border-4 bg-white" src="./c1-assets/cat-cartoon.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Cat</h2>
+            <p class="text-gray-600">3 items</p>
+          </div>
+         </div>
+
+         <div class="rounded-lg shadow-md bg-red-200 overflow-hidden">
+          <img class="m-auto w-24 h-24 rounded-full mx-auto border-4 bg-white" src="./c1-assets/bird-cartoon.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Birds</h2>
+            <p class="text-gray-600">3 items</p>
+          </div>
+         </div>
+
+         <div class="rounded-lg shadow-md bg-red-200 overflow-hidden">
+          <img class="m-auto w-24 h-24 rounded-full mx-auto border-4 bg-white" src="./c1-assets/mouse-cartoon.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Small pet</h2>
+            <p class="text-gray-600">3 items</p>
+          </div>
+         </div>
+
+         <div class="rounded-lg shadow-md bg-red-200 overflow-hidden">
+          <img class="m-auto w-24 h-24 rounded-full mx-auto border-4 bg-white" src="./c1-assets/rabbit-cartoon.png" alt="">
+          <div class="p-4">
+            <h2 class="font-bold text-xl">Rabit</h2>
+            <p class="text-gray-600">3 items</p>
+          </div>
+         </div>
+      </div>
+      <!-- End Card -->
+    </main>
 
     <!-- Footer section -->
-     <footer></footer>
+     <footer>
+     
+     </footer>
 </body>
 </html>
